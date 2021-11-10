@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\C++\thu1\thu1\Source.cpp(3,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+E:\C++\thu1\thu1\Source.cpp(30,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  thu1.vcxproj -> E:\C++\thu1\x64\Debug\thu1.exe

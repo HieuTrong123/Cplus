@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\C++\hinhtrrutron\hinhtrrutron\Source.cpp(10,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\C++\hinhtrrutron\hinhtrrutron\Source.cpp(11,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\C++\hinhtrrutron\hinhtrrutron\Source.cpp(12,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  hinhtrrutron.vcxproj -> E:\C++\hinhtrrutron\x64\Debug\hinhtrrutron.exe

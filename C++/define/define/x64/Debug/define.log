@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\C++\define\define\Source.cpp(20,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\C++\define\define\Source.cpp(21,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  define.vcxproj -> E:\C++\define\x64\Debug\define.exe

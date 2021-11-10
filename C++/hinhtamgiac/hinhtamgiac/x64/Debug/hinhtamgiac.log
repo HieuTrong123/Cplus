@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\C++\hinhtamgiac\hinhtamgiac\Source.cpp(14,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\C++\hinhtamgiac\hinhtamgiac\Source.cpp(15,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  hinhtamgiac.vcxproj -> E:\C++\hinhtamgiac\x64\Debug\hinhtamgiac.exe

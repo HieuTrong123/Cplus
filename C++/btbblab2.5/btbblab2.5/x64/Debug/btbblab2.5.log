@@ -1,0 +1,6 @@
+﻿  Source.cpp
+E:\C++\btbblab2.5\btbblab2.5\Source.cpp(8,11): warning C4101: 'v': unreferenced local variable
+E:\C++\btbblab2.5\btbblab2.5\Source.cpp(8,14): warning C4101: 's': unreferenced local variable
+E:\C++\btbblab2.5\btbblab2.5\Source.cpp(23,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\C++\btbblab2.5\btbblab2.5\Source.cpp(27,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  btbblab2.5.vcxproj -> E:\C++\btbblab2.5\x64\Debug\btbblab2.5.exe

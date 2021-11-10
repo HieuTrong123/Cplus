@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\C++\hinhcau\hinhcau\Source.cpp(10,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\C++\hinhcau\hinhcau\Source.cpp(11,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  hinhcau.vcxproj -> E:\C++\hinhcau\x64\Debug\hinhcau.exe

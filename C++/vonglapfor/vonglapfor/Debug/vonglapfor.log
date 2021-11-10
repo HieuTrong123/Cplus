@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\C++\vonglapfor\vonglapfor\Source.cpp(7,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  vonglapfor.vcxproj -> D:\C++\vonglapfor\Debug\vonglapfor.exe
