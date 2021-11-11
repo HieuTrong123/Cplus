@@ -1,7 +1,180 @@
-nguyen van A , 212365
 
-NLLTCT - 10
+Sinh vien thu 1
+Ho ten sinh vien : nguyen van A
+ma so sinh vien : h212365
+Mon hoc thu 1
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 10
+Mon hoc thu 2
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 3
+ten mon hoc : 
+THMLN
+diem mon hoc : 10
+Sinh vien thu 2
+Ho ten sinh vien : 
+nguyen van B
+ma so sinh vien : h236546
+Mon hoc thu 1
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 10
+Mon hoc thu 2
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 3
+ten mon hoc : 
+THMLN
+diem mon hoc : 10
+Mon hoc thu 4
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 4
+Mon hoc thu 5
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 5
+Mon hoc thu 6
+ten mon hoc : 
+THMLN
+diem mon hoc : 6
+Sinh vien thu 3
+Ho ten sinh vien : 
+nguyen van C
+ma so sinh vien : h212365
+Mon hoc thu 1
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 10
+Mon hoc thu 2
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 3
+ten mon hoc : 
+THMLN
+diem mon hoc : 10
+Mon hoc thu 4
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 4
+Mon hoc thu 5
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 5
+Mon hoc thu 6
+ten mon hoc : 
+THMLN
+diem mon hoc : 6
+Mon hoc thu 7
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 7
+Mon hoc thu 8
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 9
+ten mon hoc : 
+THML
+diem mon hoc : 9
+Sinh vien thu 4
+Ho ten sinh vien : 
+nguyen van D
+ma so sinh vien : h212365
+Mon hoc thu 1
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 10
+Mon hoc thu 2
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 3
+ten mon hoc : 
+THMLN
+diem mon hoc : 10
+Mon hoc thu 4
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 4
+Mon hoc thu 5
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 5
+Mon hoc thu 6
+ten mon hoc : 
+THMLN
+diem mon hoc : 6
+Mon hoc thu 7
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 7
+Mon hoc thu 8
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 9
+ten mon hoc : 
+THML
+diem mon hoc : 9
+Mon hoc thu 10
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 10
+Mon hoc thu 11
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Sinh vien thu 5
+Ho ten sinh vien : 
 
-NMCNTT - 10
-
-THMLN - 10
+ma so sinh vien : h212365
+Mon hoc thu 1
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 10
+Mon hoc thu 2
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 3
+ten mon hoc : 
+THMLN
+diem mon hoc : 10
+Mon hoc thu 4
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 4
+Mon hoc thu 5
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 5
+Mon hoc thu 6
+ten mon hoc : 
+THMLN
+diem mon hoc : 6
+Mon hoc thu 7
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 7
+Mon hoc thu 8
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10
+Mon hoc thu 9
+ten mon hoc : 
+THML
+diem mon hoc : 9
+Mon hoc thu 10
+ten mon hoc : 
+NLLTCT
+diem mon hoc : 10
+Mon hoc thu 11
+ten mon hoc : 
+NMCNTT
+diem mon hoc : 10

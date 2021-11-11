@@ -1,0 +1,60 @@
+
+sinh vien thu 1
+ho ten sinh vien : dinh trong hieu
+ma so sinh vien : 2115207
+mon hoc thu 1
+ten mon hoc : 
+cau truc du kieu giai thuat
+diem mon hoc : 10
+mon hoc thu 2
+ten mon hoc : 
+lap trinh c++
+diem mon hoc : 10
+mon hoc thu 3
+ten mon hoc : 
+lap trinh huong doi tuong java
+diem mon hoc : 10
+sinh vien thu 2
+ho ten sinh vien : 
+dinh trong A
+ma so sinh vien : 2115207
+mon hoc thu 1
+ten mon hoc : 
+cau truc du kieu giai thuat
+diem mon hoc : 9
+mon hoc thu 2
+ten mon hoc : 
+lap trinh c++
+diem mon hoc : 9
+mon hoc thu 3
+ten mon hoc : 
+lap trinh huong doi tuong java
+diem mon hoc : 9
+sinh vien thu 3
+ho ten sinh vien : 
+dinh trong B
+ma so sinh vien : 2115207
+mon hoc thu 1
+ten mon hoc : 
+cau truc du kieu giai thuat
+diem mon hoc : 8
+mon hoc thu 2
+ten mon hoc : 
+lap trinh c++
+diem mon hoc : 8
+mon hoc thu 3
+ten mon hoc : 
+lap trinh huong doi tuong java
+diem mon hoc : 8
+sinh vien thu 4
+ho ten sinh vien : 
+dinh trong C
+ma so sinh vien : 2115207
+mon hoc thu 1
+ten mon hoc : 
+cau truc du kieu giai thuat
+diem mon hoc : 7
+mon hoc thu 2
+ten mon hoc : 
+lap trinh c++
+diem mon hoc : 7

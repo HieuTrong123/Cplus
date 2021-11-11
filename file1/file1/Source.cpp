@@ -50,13 +50,33 @@ void Xuat_Thong_Tin_Mon_Hoc(MONHOC mon){
 	cout << "\nten mon hoc : "<<mon.tenmonhoc;
 	cout << "\ndiem mon hoc : " << mon.diem;
 }
-void Test(vector<SINHVIEN> ds) {
+//void Test(vector<SINHVIEN> ds) {
+//	for (int i = 0; i < ds.size(); i++) {
+//		cout << "\nSinh vien thu "<<i+1;
+//		Xuat_Thong_Tin_Sinh_Vien(ds[i]);
+//		for (int j = 0; j < ds[i].ds_monhoc.size() ; j++) {
+//			cout << "\nMon hoc thu " << j + 1;
+//			Xuat_Thong_Tin_Mon_Hoc(ds[i].ds_monhoc[j]);
+//		}
+//
+//	}
+//}
+void xuat_thong_tin_sinh_vien(ofstream& fileout, sinhvien sv) {
+	fileout << "\nho ten sinh vien : " << sv.hoten;
+	fileout << "\nma so sinh vien : " << sv.maso;
+
+}
+void xuat_thong_tin_mon_hoc(ofstream& fileout, monhoc mon) {
+	fileout << "\nten mon hoc : " << mon.tenmonhoc;
+	fileout << "\ndiem mon hoc : " << mon.diem;
+}
+void test(ofstream& fileout, vector<sinhvien> ds) {
 	for (int i = 0; i < ds.size(); i++) {
-		cout << "\nSinh vien thu "<<i+1;
-		Xuat_Thong_Tin_Sinh_Vien(ds[i]);
-		for (int j = 0; j < ds[i].ds_monhoc.size() ; j++) {
-			cout << "\nMon hoc thu " << j + 1;
-			Xuat_Thong_Tin_Mon_Hoc(ds[i].ds_monhoc[j]);
+		fileout << "\nsinh vien thu " << i + 1;
+		xuat_thong_tin_sinh_vien(fileout, ds[i]);
+		for (int j = 0; j < ds[i].ds_monhoc.size(); j++) {
+			fileout << "\nmon hoc thu " << j + 1;
+			xuat_thong_tin_mon_hoc(fileout, ds[i].ds_monhoc[j]);
 		}
 
 	}
@@ -67,8 +87,13 @@ int main() {
 	filein.open("sinhvien.txt", ios_base::in);
 	vector<SINHVIEN> ds_sinhvien;
 	Doc_File(filein, ds_sinhvien);
-	Test(ds_sinhvien);
+	/*Test(ds_sinhvien);*/
+	ofstream fileout;
+	fileout.open("DanhSachSV.txt", ios_base::out);
 
+
+	test(fileout, ds_sinhvien);
+	fileout.close();
 
 
 
