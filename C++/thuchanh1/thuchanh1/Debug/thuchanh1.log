@@ -1,3 +1,0 @@
-﻿  thuchanh1.cpp
-D:\C++\thuchanh1\thuchanh1\thuchanh1.cpp(10,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  thuchanh1.vcxproj -> D:\C++\thuchanh1\Debug\thuchanh1.exe

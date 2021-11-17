@@ -1,3 +1,0 @@
-﻿  Source.cpp
-E:\C++\const\const\Source.cpp(6,27): warning C4305: 'initializing': truncation from 'double' to 'float'
-  const.vcxproj -> E:\C++\const\x64\Debug\const.exe

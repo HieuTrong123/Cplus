@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\c++\Cplus\2115207_lab03_D_HD\Lab03_Bai04_GiaiThua\Lab03_Bai04_GiaiThua\Source.cpp(26,21): warning C4018: '<=': signed/unsigned mismatch
+C:\c++\Cplus\2115207_lab03_D_HD\Lab03_Bai04_GiaiThua\Lab03_Bai04_GiaiThua\Source.cpp(34,20): warning C4018: '<=': signed/unsigned mismatch
+  Lab03_Bai04_GiaiThua.vcxproj -> C:\c++\Cplus\2115207_lab03_D_HD\Lab03_Bai04_GiaiThua\x64\Debug\Lab03_Bai04_GiaiThua.exe

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai08_lab3_BoiChungUocChung", "Bai08_lab3_BoiChungUocChung\Bai08_lab3_BoiChungUocChung.vcxproj", "{B6B0688B-CC53-45C3-9716-322851C90FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Debug|x64.ActiveCfg = Debug|x64
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Debug|x64.Build.0 = Debug|x64
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Debug|x86.Build.0 = Debug|Win32
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Release|x64.ActiveCfg = Release|x64
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Release|x64.Build.0 = Release|x64
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Release|x86.ActiveCfg = Release|Win32
+		{B6B0688B-CC53-45C3-9716-322851C90FFF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26EE0EB4-C77C-43B1-A2F6-2A3A1A13A62B}
+	EndGlobalSection
+EndGlobal
