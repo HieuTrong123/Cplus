@@ -1,8 +1,0 @@
-﻿  Source.cpp
-E:\C++\btbblab2.4\btbblab2.4\Source.cpp(9,22): warning C4101: 'stp': unreferenced local variable
-E:\C++\btbblab2.4\btbblab2.4\Source.cpp(9,14): warning C4101: 'v': unreferenced local variable
-E:\C++\btbblab2.4\btbblab2.4\Source.cpp(9,17): warning C4101: 'sxq': unreferenced local variable
-E:\C++\btbblab2.4\btbblab2.4\Source.cpp(22,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\C++\btbblab2.4\btbblab2.4\Source.cpp(26,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\C++\btbblab2.4\btbblab2.4\Source.cpp(30,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  btbblab2.4.vcxproj -> E:\C++\btbblab2.4\x64\Debug\btbblab2.4.exe

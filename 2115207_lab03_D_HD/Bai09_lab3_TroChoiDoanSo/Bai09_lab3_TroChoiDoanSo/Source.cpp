@@ -8,7 +8,6 @@ int main() {
 
 	srand(time(NULL));
 	int secretNum = rand() % (10-1+1) + 1;
-	cout << endl << secretNum;
 	int guess=secretNum-1;
 	Xuly(secretNum,guess);
 
@@ -41,5 +40,6 @@ void Xuly(int secretNum ,int guess) {
 	}
 	else {
 		cout << "you lose!";
+		cout << "\nso can doan la : "<<secretNum;
 	}
 }

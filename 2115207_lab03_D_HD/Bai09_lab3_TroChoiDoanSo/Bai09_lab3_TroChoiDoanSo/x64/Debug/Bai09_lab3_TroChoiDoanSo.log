@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\c++\Cplus\2115207_lab03_D_HD\Bai09_lab3_TroChoiDoanSo\Bai09_lab3_TroChoiDoanSo\Source.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Bai09_lab3_TroChoiDoanSo.vcxproj -> C:\c++\Cplus\2115207_lab03_D_HD\Bai09_lab3_TroChoiDoanSo\x64\Debug\Bai09_lab3_TroChoiDoanSo.exe
