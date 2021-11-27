@@ -1,3 +1,6 @@
+void Menu();
+void XuatMenu(int n);
+void XuatSoDenn(int n);
 void Menu() {
 	cout << "\n\n\t\t===========MENU==========\n";
 	cout << "\n0.Ket thuc ";

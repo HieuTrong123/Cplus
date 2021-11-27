@@ -3,6 +3,7 @@ int ChonMucDoan();
 int SinhSoNgauNhien();
 int XuLyTroChoi(int k, int soDe);
 void ThongBaoKetQua(int kq, int soDe);
+
 int ChonMucDoan()
 {
 	int k;

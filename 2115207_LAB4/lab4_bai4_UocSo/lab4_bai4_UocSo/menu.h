@@ -1,3 +1,5 @@
+void Menu();
+void XuatMenu();
 void Menu() {
 	cout << "\n\n\t\t===========MENU==========\n";
 	cout << "\n0.Ket thuc ";

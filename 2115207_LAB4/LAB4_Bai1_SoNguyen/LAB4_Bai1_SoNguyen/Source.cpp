@@ -1,18 +1,8 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-void ChayCT();
-void Menu();
-void XuatMenu(int n);
-void XuatSoDenn(int n);
-void SoChiaHetCho3(int n);
-int SoLuongSoN(int n);
-int DaoNguocSo(int n);
-int TongCacSo(int n);
-int SoDauTien(int n);
-int TimM(int n);
-#include"menu.h"
 #include"thuvien.h"
+#include"menu.h"
 
 
 int main() {

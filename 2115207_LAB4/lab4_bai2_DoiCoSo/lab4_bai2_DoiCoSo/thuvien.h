@@ -1,3 +1,4 @@
+void DoiCoSo(int n, int b);
 void DoiCoSo(int n, int b) {
 	if (n == 0) {
 		return;

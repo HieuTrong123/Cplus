@@ -3,12 +3,10 @@
 #include<math.h>
 
 using namespace std;
-void DoiCoSo(int n, int b);
-void Menu();
-void XuatMenu(int n);
 
-#include"menu.h"
 #include"thuvien.h"
+#include"menu.h"
+
 
 int main() {
 	int n;

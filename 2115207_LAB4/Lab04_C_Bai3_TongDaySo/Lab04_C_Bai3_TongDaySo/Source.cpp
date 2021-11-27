@@ -1,15 +1,10 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-void XuatMenu();
-int ChonMenu(int soMenu);
-void XuLyMenu(int menu, unsigned int n);
-double TinhTongR(unsigned int n);
-double TinhTongS(unsigned int n);
-double TinhTongT(unsigned int n);
+
 #include "thuvien.h"
 #include "menu.h"
-void ChayChuongTrinh();
+
 int main()
 {
 	ChayChuongTrinh();
@@ -25,7 +20,7 @@ void ChayChuongTrinh()
 	cin >> n;
 	do {
 		menu = ChonMenu(soMenu);
-		XuLyMenu(menu);
+		XuLyMenu(menu ,n);
 	} while (menu > 0);
 	_getch();
 }

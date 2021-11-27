@@ -1,3 +1,11 @@
+void ChayCT();
+
+void SoChiaHetCho3(int n);
+int SoLuongSoN(int n);
+int DaoNguocSo(int n);
+int TongCacSo(int n);
+int SoDauTien(int n);
+int TimM(int n);
 void XuatSoDenn(int n) {
 	int k = 0;
 	while (k <= n) {
@@ -12,8 +20,8 @@ void SoChiaHetCho3(int n) {
 	int k = 0;
 	while (k <= n) {
 		k++;
-		if (k % 3 == 0&& k % 4 != 0) {
-			cout << k <<"   ";
+		if (k % 3 == 0 && k % 4 != 0) {
+			cout << k << "   ";
 		}
 	}
 }
@@ -30,7 +38,7 @@ int SoLuongSoN(int n) {
 }
 int DaoNguocSo(int n) {
 	int s = 0;
-	while (n!=0) {
+	while (n != 0) {
 		s = s * 10 + (n % 10);
 		n = n / 10;
 	}
@@ -38,14 +46,14 @@ int DaoNguocSo(int n) {
 }
 int TongCacSo(int n) {
 	int s = 0;
-	while (n!=0) {
+	while (n != 0) {
 		s += (n % 10);
 		n = n / 10;
 	}
 	return s;
 }
 int SoDauTien(int n) {
-	while (n>=10) {
+	while (n >= 10) {
 		n = n / 10;
 	}
 	return n;
@@ -58,5 +66,5 @@ int TimM(int n) {
 			return i;
 		}
 	}
-	
+
 }

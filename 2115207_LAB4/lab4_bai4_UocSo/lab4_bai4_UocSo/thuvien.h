@@ -1,6 +1,12 @@
+
+void XuatCacUocSoN(int n);
+int DemSoLuongUoc(int n);
+int TongCacUocSo(int n);
+void TimSoLonNhatLuyThua2(int n);
+bool KiemTraSoHoanThien(int n);
 void XuatCacUocSoN(int n) {
 	int k = 1;
-	while (k<=n) {
+	while (k <= n) {
 		if (n % k == 0) {
 			cout << k << "   ";
 		}
@@ -30,9 +36,9 @@ int TongCacUocSo(int n) {
 	return sum;
 }
 void TimSoLonNhatLuyThua2(int n) {
-	for (int i = n-1; i >=1;i--) {
-		if (n % i== 0 && i % 2 == 0) {
-			cout <<"\nSo lon nhat be hon n va la luy thua cua 2 la : " << i;
+	for (int i = n - 1; i >= 1; i--) {
+		if (n % i == 0 && i % 2 == 0) {
+			cout << "\nSo lon nhat be hon n va la luy thua cua 2 la : " << i;
 			break;
 		}
 	}

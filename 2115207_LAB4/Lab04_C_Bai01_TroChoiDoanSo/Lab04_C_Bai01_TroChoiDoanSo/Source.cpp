@@ -5,6 +5,7 @@
 using namespace std;
 #include"thuvien.h"
 void ChayCT();
+
 int main() {
 	ChayCT();
 	return 0;

@@ -1,3 +1,6 @@
+void XuatMenu();
+int ChonMenu(int soMenu);
+void XuLyMenu(int menu, unsigned int n);
 void XuatMenu() {
 	cout << endl << "\n\n\t\t\======== CHON CHUC NANG ========";
 	cout << endl << "\n0. Thoat khoi chuong trinh";
@@ -43,4 +46,3 @@ void XuLyMenu(int menu , unsigned int n) {
 	}
 	_getch();
 }
-
