@@ -61,6 +61,7 @@ void XuatMenu(int a[]) {
 		}
 		else if (luachon==7) {
 			cout << "\n7.dem so luong cac duong chay trong day biet rang dung chay la cac day con co thu tu dai nhat gom nhuong phan tu nam ke tiep nhau";
+			
 			system("pause");
 		}
 		else {

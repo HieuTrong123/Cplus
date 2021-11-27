@@ -61,4 +61,3 @@ int DemX(int a[],int n,int vt,int x){
 	}
 	return dem;
 }
-
