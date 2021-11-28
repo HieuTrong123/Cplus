@@ -1,5 +1,0 @@
-﻿  Source.cpp
-C:\c++\Cplus\2115207_LAB5\Lab5_Bai6_TinhToan\Lab5_Bai6_TinhToan\thuvien.h(26,22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\c++\Cplus\2115207_LAB5\Lab5_Bai6_TinhToan\Lab5_Bai6_TinhToan\thuvien.h(31,13): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\c++\Cplus\2115207_LAB5\Lab5_Bai6_TinhToan\Lab5_Bai6_TinhToan\thuvien.h(33,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-  Lab5_Bai6_TinhToan.vcxproj -> C:\c++\Cplus\2115207_LAB5\Lab5_Bai6_TinhToan\x64\Debug\Lab5_Bai6_TinhToan.exe
