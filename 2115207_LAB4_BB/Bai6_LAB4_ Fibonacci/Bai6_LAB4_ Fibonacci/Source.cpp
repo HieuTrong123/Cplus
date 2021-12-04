@@ -11,7 +11,7 @@ int main() {
 	return 0;
 }
 void Chay_Ct() {
-	int a[MAX];
+	
 	int n = 0;
-	Xu_Ly_Menu(a,n);
+	Xu_Ly_Menu(n);
 }

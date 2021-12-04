@@ -7,6 +7,7 @@ void Menu() {
 	cout << "\n2.xuat ra man hinh cac so nguyen to trong pham vi tu 1 den n moi so cach nhau 1 dau tab moi dong 5 so";
 	cout << "\n3.dem so luong so nguyen to trong pham vi tu 1...n";
 	cout << "\n4.Tinh tong cac uoc so nguyen to";
+	cout << "\n5.phan tich ca thua so nguyen to";
 	cout << "\n\n\t\t===========END===========\n";
 }
 void XuatMenu() {
@@ -49,6 +50,13 @@ void XuatMenu() {
 			cout << "\n4.Tinh tong cac uoc so nguyen to";
 			cout << "\nNhap gia tri n : "; cin >> n;
 			cout<<"\nTong cac so nguyen to trong doan 1....n la : " << TinhTongSoNT(n);
+			system("pause");
+		}
+		else if (luachon == 5) {
+			cout << "\n4.Tinh tong cac uoc so nguyen to";
+			cout << "\nNhap gia tri n : "; cin >> n;
+			cout << "\nthua so nguyen to cua n la : ";
+			PhanTichThúaoNguyenTo(n);
 			system("pause");
 		}
 		else {

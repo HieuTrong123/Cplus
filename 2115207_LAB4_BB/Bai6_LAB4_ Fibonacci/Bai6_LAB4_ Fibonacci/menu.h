@@ -3,13 +3,13 @@ void Menu();
 void Menu() {
 	cout << "\n\n\t\t=======MENU========\n";
 	cout << "\n0.Ket thuc";
-	cout << "\n1.tim va xuat ra so fibonacci thu n";
+	cout << "\n1.tim va xuat ra so fibonacci thu m";
 	cout << "\n2.liet ke cac so fibonacci be hon n";
 	cout << "\n3.liet ke n so fibonacci dau tien";
 	cout << "\n\n\t\t=======MENU========\n";
 }
-void Xu_Ly_Menu(int a[],int &n) {
-	int luaChon;
+void Xu_Ly_Menu(int &n) {
+	int luaChon,m;
 	while (true) {
 		system("cls");
 		Menu();
@@ -22,23 +22,27 @@ void Xu_Ly_Menu(int a[],int &n) {
 		}
 		else if (luaChon == 1) {
 			cout << "\n1.tim va xuat ra so fibonacci thu n";
+		
 			cout << "\nNhap n : ";
 			cin >> n;
-			Fibonacci_Thu_n(a, n);
+			Xuat_FiBo_Thu_N(n);
+			
 			system("pause");
 		}
 		else if (luaChon == 2) {
 			cout << "\n2.liet ke cac so fibonacci be hon n";
 			cout << "\nNhap n : ";
 			cin >> n;
-			Be_Hon_Bang_n(a, n);
+			Xuat_FiBo_Nho_Hon_N(n);
 			system("pause");
 		}
 		else if (luaChon == 3) {
 			cout << "\n3.liet ke n so fibonacci dau tien";
-			cout << "\nNhap n : ";
+			cout << "\nNhap so luong ban dau n : ";
 			cin >> n;
-			Be_Hon_Bang_n(a, n);
+			cout << "\nNhap so luong tien can xuat : ";
+			cin >> m;
+			Xuat_FiBo_Dau_Tien(n, m);
 			system("pause");
 		}
 		else {

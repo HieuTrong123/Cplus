@@ -10,9 +10,9 @@ void Menu() {
 
 }
 void Xu_Ly_Menu() {
-	int luaChon,
-		n=20;
-	float x;
+	int luaChon;
+		
+	double x;
 	while (true) {
 		system("cls");
 		Menu();
@@ -27,21 +27,22 @@ void Xu_Ly_Menu() {
 			cout << "\n1.tinh e^x";
 			cout << "\nNhap gia tri cua luy thua x : ";
 			cin >> x;
-			cout << "\ngia tri e^x = " <<setprecision(5) << exponential(n, x);
+			cout << "\ngia tri e^x = "
+				<< EMuX(x);
 			system("pause");
 		}
 		else if (luaChon == 2) {
 			cout << "\n2.tinh sin(x)";
 			cout << "\nNhap gia tri cua luy thua x : ";
 			cin >> x;
-			cout << "\ngia tri sin(x) = " << setprecision(5) << Tinh_Sin(n, x);
+			cout << "\ngia tri sin(x) = "  << SinX(x);
 			system("pause");
 		}
 		else if (luaChon == 3) {
 			cout << "\n3.tinh cos(x)";
 			cout << "\nNhap gia tri cua luy thua x : ";
 			cin >> x;
-			cout << "\ngia tri cos(x) = " << setprecision(5) << Tinh_Cos(n, x);
+			cout << "\ngia tri cos(x) = " << CosX(x);
 			system("pause");
 		}
 		else {

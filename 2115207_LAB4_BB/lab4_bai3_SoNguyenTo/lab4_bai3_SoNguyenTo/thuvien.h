@@ -1,8 +1,8 @@
 bool KiemTraSoNT(int n);
-
 void XuatSoNT(int n);
 int DemSoLuongSoNT(int n);
 int TinhTongSoNT(int n);
+void PhanTichThúaoNguyenTo(int n);
 bool KiemTraSoNT(int n) {
 	if (n < 2) {
 		return false;
@@ -28,6 +28,7 @@ void XuatSoNT(int n) {
 			m++;
 			if (m == 5) {
 				cout << endl;
+				m = 0;
 			}
 		}
 		k++;
@@ -52,4 +53,15 @@ int TinhTongSoNT(int n) {
 		}
 	}
 	return sum;
+}
+void PhanTichThúaoNguyenTo(int n) {
+
+	for (int i = 2; i <= n;i++) {
+		if (n % i == 0 && KiemTraSoNT(i)==true) {
+			while (n%i==0) {
+				cout << i << "   ";
+				n /= i;
+			}
+		}
+	}
 }
