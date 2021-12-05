@@ -23,26 +23,31 @@ void Xuat_FiBo_Thu_N(int n) {
 	}
 }
 void Xuat_FiBo_Nho_Hon_N(int n) {
-	for (int i = 0; i < n;i++) {
-		if (i == 0) {
-			cout << "0" << endl;
-		}
-		else if (i == 1) {
-			cout << "1" << endl;
-		}
-		else if (i >= 2) {
-			long long fn, f0 = 0, f1 = 1;
-			for (int j = 2; j <= n; j++) {
-				fn = f0 + f1;
-				f0 = f1;
-				f1 = fn;
-				cout << fn << endl;
+	int m;
+	cout << "\nNhap so luong m cua day : ";
+	cin >> m;
+	long long fn, f0 = 0, f1 = 1;
+	if (m == 0) {
+
+	}
+	else if (m == 1) {
+		cout << f0 << '\t' << endl;
+	}
+	else if (m >= 2) {
+		cout << f0 << '\t' << f1 << '\t';
+		for (int i = 2; i < m; i++) {
+			fn = f0 + f1;
+			f0 = f1;
+			f1 = fn;
+			if (fn<n) {
+				cout << fn << '\t';
 			}
-			break;
+
 		}
 	}
 }
 void Xuat_FiBo_Dau_Tien(int n) {
+	
 	long long fn, f0 = 0, f1 = 1;
 	if (n == 0) {
 		

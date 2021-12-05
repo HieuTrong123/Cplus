@@ -30,7 +30,7 @@ void Xu_Ly_Menu(int &n) {
 		}
 		else if (luaChon == 2) {
 			cout << "\n2.liet ke cac so fibonacci be hon n";
-			cout << "\nNhap n : ";
+			cout << "\nNhap gia tri n  de so sanh : ";
 			cin >> n;
 			Xuat_FiBo_Nho_Hon_N(n);
 			system("pause");
