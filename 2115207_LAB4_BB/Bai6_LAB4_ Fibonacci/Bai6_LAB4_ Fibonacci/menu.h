@@ -9,7 +9,7 @@ void Menu() {
 	cout << "\n\n\t\t=======MENU========\n";
 }
 void Xu_Ly_Menu(int &n) {
-	int luaChon,m;
+	int luaChon;
 	while (true) {
 		system("cls");
 		Menu();
@@ -26,7 +26,6 @@ void Xu_Ly_Menu(int &n) {
 			cout << "\nNhap n : ";
 			cin >> n;
 			Xuat_FiBo_Thu_N(n);
-			
 			system("pause");
 		}
 		else if (luaChon == 2) {
@@ -38,11 +37,10 @@ void Xu_Ly_Menu(int &n) {
 		}
 		else if (luaChon == 3) {
 			cout << "\n3.liet ke n so fibonacci dau tien";
-			cout << "\nNhap so luong ban dau n : ";
+			
+			cout << "\nNhap so luong n so dau tien can xuat : ";
 			cin >> n;
-			cout << "\nNhap so luong tien can xuat : ";
-			cin >> m;
-			Xuat_FiBo_Dau_Tien(n, m);
+			Xuat_FiBo_Dau_Tien(n);
 			system("pause");
 		}
 		else {

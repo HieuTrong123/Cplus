@@ -1,6 +1,6 @@
 void Xuat_FiBo_Thu_N(int n);
 void Xuat_FiBo_Nho_Hon_N(int n);
-void Xuat_FiBo_Dau_Tien(int n, int m);
+void Xuat_FiBo_Dau_Tien(int n);
 
 void Xuat_FiBo_Thu_N(int n) {
 	long long fn, f0 = 0, f1 = 1;
@@ -42,13 +42,13 @@ void Xuat_FiBo_Nho_Hon_N(int n) {
 		}
 	}
 }
-void Xuat_FiBo_Dau_Tien(int n ,int m) {
+void Xuat_FiBo_Dau_Tien(int n) {
 	long long fn, f0 = 0, f1 = 1;
 	if (n == 0) {
-		cout << "\nkhong co gia tri nao ton tai truoc so 0!";
+		
 	}
 	else if (n == 1) {
-		cout << f0<<'\t' << f1 << endl;
+		cout << f0<<'\t'<< endl;
 	}
 	else if (n >= 2) {
 		cout << f0 << '\t' << f1 << '\t';
@@ -56,13 +56,8 @@ void Xuat_FiBo_Dau_Tien(int n ,int m) {
 			fn = f0 + f1;
 			f0 = f1;
 			f1 = fn;
-			
-			if (m == i) {
-				break;
-			}
-			else {
 				cout << fn << '\t';
-			}
+			
 		}
 	}
 }
