@@ -44,7 +44,7 @@ void XuatMenu() {
 		else if (luachon == 4) {
 			cout << "\n4.tim so lon nhat nho hon hoac bang n ma la luy thua cua 2 ";
 			cout << "\nNhap gia tri n : "; cin >> n;
-			TimSoLonNhatLuyThua2(n);
+			cout<<TimSoLonNhatLuyThua2(n);
 			system("pause");
 		}
 		else if (luachon == 5) {

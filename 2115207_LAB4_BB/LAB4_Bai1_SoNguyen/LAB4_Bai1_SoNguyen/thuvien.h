@@ -7,23 +7,33 @@ int TongCacSo(int n);
 int SoDauTien(int n);
 int TimM(int n);
 void XuatSoDenn(int n) {
-	int k = 0;
+	int k = 1;
 	while (k <= n) {
-		cout << k << "   ";
-		k++;
 		if (k % 10 == 0) {
+			cout << k << "   ";
+			k++;
 			cout << endl;
 		}
+		else {
+			cout << k << "   ";
+			k++;
+		}
+		
+		
 	}
 }
 void SoChiaHetCho3(int n) {
-	int k = 0;
+	int k = 0,
+	dem = 0;
 	while (k <= n) {
-		k++;
+		
 		if (k % 3 == 0 && k % 4 != 0) {
 			cout << k << "   ";
+			dem++;
 		}
+		k++;
 	}
+	cout << "so luong so chia het cho 3 : " << dem;
 }
 int SoLuongSoN(int n) {
 	int k = 0;
@@ -59,12 +69,13 @@ int SoDauTien(int n) {
 	return n;
 }
 int TimM(int n) {
-	int m = 0;
-	for (int i = 0;; i++) {
+	int m = 0, 
+	kq = 0;
+	for (int i = 0;i<=n; i++) {
 		m += i;
 		if (m <= n) {
-			return i;
+			kq =  i;
 		}
 	}
-
+	return kq;
 }
