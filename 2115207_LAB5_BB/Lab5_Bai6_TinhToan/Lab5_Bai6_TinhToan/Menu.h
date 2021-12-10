@@ -50,7 +50,7 @@ void Xu_Ly_Menu(int a[]) {
 		}
 		else if (luaChon == 6) {
 			cout << "\n6.Tinh tong cac so nguyen to co 2 chu so";
-			cout << "\nGia tri cua phep tinh la : " << Tinh_Tong_So_NT_2_Chu_So(a, n);
+			cout << "\nGia tri tong cua cac gia tri tren la : " << Tinh_Tong_So_NT_2_Chu_So(a, n);
 			system("pause");
 		}
 		else {

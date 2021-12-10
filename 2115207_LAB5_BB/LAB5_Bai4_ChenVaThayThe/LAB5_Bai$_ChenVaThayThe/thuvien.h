@@ -68,15 +68,19 @@ int KiemTraSoNT(int n) {
 	return kq;
 }
 void ChenSauSoNT(int a[] ,int &n ,int x) {
+	int dem = 0;
 	for (int i = 0; i < n;i++) {
-		if (KiemTraSoNT(a[i])) {
-			Chen(a, n, x, i - 1);
+		
+		if (KiemTraSoNT(a[i])==1) {
+			Chen(a, n, x, i );
 			break;
 		}
 		else {
-			Chen(a, n, x, 0);
-			break;
+			dem++;
 		}
+	}
+	if (dem == n) {
+		Chen(a, n, x, 0);
 	}
 }
 void ChenVaoSauKyTuY(int a[],int &n,int y,int x) {
@@ -104,8 +108,10 @@ void Xoa(int a[],int &n ,int vt) {
 	n--;
 }
 void ThayThe(int a[] ,int &n,int x) {
+	int m = TimMin(a, n);
 	for (int i = 0; i < n;i++) {
-		if (a[i]==TimMin(a,n)) {
+
+		if (a[i]==m) {
 			Xoa(a, n, i);
 			Chen(a, n, x, i);
 		}

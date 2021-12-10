@@ -65,10 +65,10 @@ void TimPhanTuXuatHienNhieuNHat(int a[] ,int b[] ,int c[], int n) {
 			}
 		}
 	}
-	cout << "\nmang a sau khi xoa trung : ";
+	/*cout << "\nmang a sau khi xoa trung : ";
 	XuatMang(a, n);
 	cout << "\nMang b la : ";
-	XuatMang(b,m);
+	XuatMang(b,m);*/
 	for (int i = 0; i < n;i++) {
 		int dem = 0;
 		for (int j = 0; j < m;j++) {
@@ -79,16 +79,15 @@ void TimPhanTuXuatHienNhieuNHat(int a[] ,int b[] ,int c[], int n) {
 		}
 		c[l] = dem;
 		l++;
-		cout << "\nPhan tu " << a[i] << " Xuat hien nhieu nhat la " << dem << " lan";
+		/*cout << "\nPhan tu " << a[i] << " Xuat hien nhieu nhat la " << dem << " lan";*/
 	}
-	cout << "\nMnag C la : ";
-	XuatMang(c, l);
+	//cout << "\nMnag C la : ";
+	//XuatMang(c, l);
 	for (int i = 0; i < n; i++) {
 		int dem = 0;
 		for (int j = 0; j < m; j++) {
 			if (a[i] == b[j]) {
 				dem++;
-
 			}
 		}
 		if (dem == TimMax(c, l)) {

@@ -3,7 +3,7 @@ void Nhap_Mang(int a[], int n);
 void Xuat_Mang(int a[], int n);
 float Tinh_Trung_Binh_Cong(int a[], int n);
 float Tinh_Tong_Binh_Phuong(int a[], int n);
-float Tinh_Tong_So_NT_2_Chu_So(int a[], int n);
+int Tinh_Tong_So_NT_2_Chu_So(int a[], int n);
 void Tinh_Do_Lech(int a[], int b[], int n);
 int Tim_Max(int a[], int n);
 int abs(int n);
@@ -51,11 +51,12 @@ int Kiem_Tra_So_NT(int n) {
 	}
 	return kq;
 }
-float Tinh_Tong_So_NT_2_Chu_So(int a[] ,int n) {
-	float sum=0;
+int Tinh_Tong_So_NT_2_Chu_So(int a[] ,int n) {
+	int sum=0;
 	for (int i = 0; i < n;i++) {
 		if (Kiem_Tra_So_NT(a[i])==1&&a[i]/10!=0) {
-			sum += (float)a[i];
+			cout <<"\nso nguyen to 2 chu so trong mang la : " << a[i] << '\t';
+			sum += a[i];
 		}
 	}
 	return sum;
@@ -71,13 +72,15 @@ int Tim_Max(int a[] ,int n) {
 }
 void Tinh_Do_Lech(int a[] ,int b[] ,int n) {
 	int m=0
-		,kq;
-	for (int i = 0; i < n; i++) {
-		kq = a[i + 1] - a[i];
+		,kq=0;
+	for (int i = n-1; i >=0; i--) {
+		kq = a[i] - a[i-1];
 		
 			b[m] = abs(kq);
 			m++;
 		
 	}
-	cout <<"\ndo lech lo nhat la" << Tim_Max(b, m);
+	cout << "\nmang b la mang chua cac do lech  : ";
+	Xuat_Mang(b, m-1);
+	cout <<"\ndo lech lon nhat la : " << Tim_Max(b, m-1);
 }
