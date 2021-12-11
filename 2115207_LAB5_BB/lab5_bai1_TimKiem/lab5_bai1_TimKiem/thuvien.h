@@ -59,8 +59,8 @@ void TimPhanTuXuatHienNhieuNHat(int a[] ,int b[] ,int c[], int n) {
 	}
 	for (int i = 0; i < n-1;i++) {
 		for (int j = i + 1; j < n;j++) {
-			if (a[i] == a[j]) {
-				Xoa(a,j,n);
+			if (b[i] == b[j]) {
+				Xoa(b,j,n);
 				j--;
 			}
 		}
@@ -72,7 +72,7 @@ void TimPhanTuXuatHienNhieuNHat(int a[] ,int b[] ,int c[], int n) {
 	for (int i = 0; i < n;i++) {
 		int dem = 0;
 		for (int j = 0; j < m;j++) {
-			if (a[i]==b[j]) {
+			if (b[i]==a[j]) {
 				dem++;
 				
 			}
@@ -86,12 +86,12 @@ void TimPhanTuXuatHienNhieuNHat(int a[] ,int b[] ,int c[], int n) {
 	for (int i = 0; i < n; i++) {
 		int dem = 0;
 		for (int j = 0; j < m; j++) {
-			if (a[i] == b[j]) {
+			if (b[i] == a[j]) {
 				dem++;
 			}
 		}
 		if (dem == TimMax(c, l)) {
-			cout << "\nPhan tu " << a[i] << " Xuat hien nhieu nhat la " << dem << " lan";
+			cout << "\nPhan tu " << b[i] << " Xuat hien nhieu nhat la " << dem << " lan";
 		}
 	}
 
@@ -137,6 +137,7 @@ int TimSoAmLonNhat(int a[],int n) {
 			for (int j = 0; j < n; j++) {
 				if (a[j] < 0 && max!=0 && a[j] > max) {
 						max = a[j];
+					
 				}
 			}
 		}

@@ -48,6 +48,7 @@ int DemSoChinhPhuong(int a[] , int n) {
 	int dem = 0;
 	for (int i = 0; i < n;i++) {
 		if (KiemTraSoChinhPhuong(a[i])) {
+			cout << "\nSo chinh phuong trong mang la : " << a[i];
 			dem++;
 		}
 	}
