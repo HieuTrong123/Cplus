@@ -2,8 +2,8 @@
 void Nhap_Ma_Tran(int a[MAX][MAX], int n);
 void Xuat_Ma_tran(int a[MAX][MAX], int n);
 int Kiem_Tra_Ma_Tran_Doi_Xung(int a[MAX][MAX], int n);
-int Kiem_Tra_Ma_Tran_Tam_Giac_Tren(int a[MAX][MAX], int n);
 int Kiem_Tra_Ma_Tran_Tam_Giac_Duoi(int a[MAX][MAX], int n);
+int Kiem_Tra_Ma_Tran_Tam_Giac_Tren(int a[MAX][MAX], int n);
 int Kiem_Tra_Ma_Tran_Don_Vi(int a[MAX][MAX], int n);
 void Nhap_Ma_Tran(int a[MAX][MAX] ,int n) {
 	for (int i = 0; i < n;i++) {
@@ -40,7 +40,7 @@ int Kiem_Tra_Ma_Tran_Doi_Xung(int a[MAX][MAX] ,int n) {
 	}
 	return kq;
 }
-int Kiem_Tra_Ma_Tran_Tam_Giac_Tren(int a[MAX][MAX] ,int n) {
+int Kiem_Tra_Ma_Tran_Tam_Giac_Duoi(int a[MAX][MAX] ,int n) {
 	int kq;
 	for (int i = 0; i < n; i++) {
 		for (int j = i + 1; j < n; j++) {
@@ -55,7 +55,7 @@ int Kiem_Tra_Ma_Tran_Tam_Giac_Tren(int a[MAX][MAX] ,int n) {
 	}
 	return kq;
 }
-int Kiem_Tra_Ma_Tran_Tam_Giac_Duoi(int a[MAX][MAX], int n) {
+int Kiem_Tra_Ma_Tran_Tam_Giac_Tren(int a[MAX][MAX], int n) {
 	int kq;
 	for (int i = 0; i < n; i++) {
 		for (int j = i + 1; j < n; j++) {
