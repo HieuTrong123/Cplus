@@ -37,6 +37,7 @@ void Xu_Ly_Menu(String a) {
 			cout << "\nNhap mang a: ";
 			cin.ignore();
 			gets_s(a, MAX);
+			cout << "\nChuoi a la : " << a;
 			system("pause");
 		}
 		else if (luaChon == 2) {

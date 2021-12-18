@@ -38,7 +38,7 @@ void Nhap_Chuoi(char a[],int max) {
 	cin.ignore(MAX, '\n');
 	cout << "\nNhhap : ";
 	cin.getline(a, max);
-	cout << "\nchuoi cua nhap la : " << a;
+	cout << "\nchuoi vua nhap la : " << a;
 	
 }
 void Nhap_1NV(NhanVien& p)

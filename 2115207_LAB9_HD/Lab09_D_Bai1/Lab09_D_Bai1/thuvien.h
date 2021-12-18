@@ -1,6 +1,6 @@
-
-
-
+void Nhap_Mang(int* a, int n);
+void Xuat_Mang(int* a, int n);
+void XuatGiaTri_SoLan_PhanBiet(int* a, int n);
 void Nhap_Mang(int* a, int n) {
 	for (int i = 0; i < n; i++) {
 		cout << "\nNhap a[" << i << "] : ";

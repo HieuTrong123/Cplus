@@ -25,13 +25,13 @@ void NhapThongTin1ThueBao(ThueBao &tb) {
 	cin >> tb.maSoThueBao;
 	cin.ignore();
 	cout << "Nhap ho ten : ";
-	_flushall();
+	cin.ignore();
 	gets_s(tb.hoTen, 51);
 	cout << "\nNhap dia chi : ";
-	_flushall();
+	cin.ignore();
 	gets_s(tb.diaChi,101);
 	cout << "\nNhap so dien thoai bat dau tu so 0 : ";
-	_flushall();
+	cin.ignore();
 	gets_s(tb.soDienThoai,15);
 	cout << "\nNhap ngay hop dong : ";
 	do {
