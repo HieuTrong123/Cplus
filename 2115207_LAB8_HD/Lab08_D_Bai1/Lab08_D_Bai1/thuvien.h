@@ -34,34 +34,31 @@ void HoanVi(NhanVien& p, NhanVien& q);
 double TinhTongLuong(NhanVien a[MAX], int n);
 void Xuat_DSNV_Luong_KhongNhoHon_x(NhanVien a[MAX], int n, double x);
 void Xuat_DSNV_NamSinh_u_v(NhanVien a[MAX], int n, unsigned int u, unsigned int v);
-
+void Nhap_Chuoi(char a[],int max) {
+	cin.ignore(MAX, '\n');
+	cout << "\nNhhap : ";
+	cin.getline(a, max);
+	cout << "\nchuoi cua nhap la : " << a;
+	
+}
 void Nhap_1NV(NhanVien& p)
 {
-	cin.ignore();
+	
 	cout << "\nMa Nhan Vien (dung 7 ky so) : ";
-	_flushall();
-	gets_s(p.maNV, 9);
+	Nhap_Chuoi(p.maNV, 9);
 	cout << "\nHo va chu lot: ";
-	_flushall();
-	gets_s(p.hoLot, 22);
+	Nhap_Chuoi(p.hoLot, 22);
 	cout << "\nTen nhan vien: ";
-	_flushall();
-	gets_s(p.ten, 8);
+	Nhap_Chuoi(p.ten, 8);
 	cout << "\nNgay sinh: ";
-	//_flushall();
 	cin >> p.ntns.ngaySinh;
 	cout << "\nThang sinh: ";
-	//_flushall();
 	cin >> p.ntns.thangSinh;
 	cout << "\nNam sinh: ";  
-	/*	_flushall();*/
 	cin >> p.ntns.namSinh;
-	cin.ignore();
 	cout << "\nNhap dia chi: ";
-	_flushall();
-	gets_s(p.diaChi, 25);
+	Nhap_Chuoi(p.diaChi, 25);
 	cout << "\nNhap luong: ";
-	/*_flushall();*/
 	cin >> p.luong;
 }
 void Nhap_DSNV(NhanVien a[MAX], int& n)

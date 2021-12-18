@@ -1,11 +1,26 @@
+
+
+
+void Nhap_Mang(int* a, int n) {
+	for (int i = 0; i < n; i++) {
+		cout << "\nNhap a[" << i << "] : ";
+		cin >> a[i];
+	}
+}
+void Xuat_Mang(int* a, int n) {
+	for (int i = 0; i < n; i++) {
+		cout << a[i] << "   ";
+	}
+}
+
 void XuatGiaTri_SoLan_PhanBiet(int* a, int n)
 {
-	int i,//duyet a
-		dau; //danh dai a[i] da co trong b chua
-	int* b, //luu cac gia tri phan biet
-		j,//duyet b
-		* c, //luu so lan xuat hien cua cac b[j]
-		m;// kich thuoc cua b, c
+	int i,
+		dau; 
+	int* b, 
+		j,
+		* c, 
+		m;
 	m = 0;
 	b = new int[n];
 	for (i = 0; i < n; i++)
