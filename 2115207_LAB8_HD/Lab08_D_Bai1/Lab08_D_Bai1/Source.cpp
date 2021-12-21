@@ -32,6 +32,7 @@ void ChayChuongTrinh()
 	do
 	{
 		menu = ChonMenu(soMenu);
+
 		XuLyMenu(menu, a, n);
 	} while (menu > 0);
 }

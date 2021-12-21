@@ -1,5 +1,0 @@
-﻿  Source.cpp
-C:\c++\Cplus\2115207_LAB8_HD\Lab08_D_Bai1\Lab08_D_Bai1\menu.h(142,11): warning C4566: character represented by universal-character-name '\u1ECD' cannot be represented in the current code page (1252)
-C:\c++\Cplus\2115207_LAB8_HD\Lab08_D_Bai1\Lab08_D_Bai1\menu.h(142,11): warning C4566: character represented by universal-character-name '\u01B0' cannot be represented in the current code page (1252)
-C:\c++\Cplus\2115207_LAB8_HD\Lab08_D_Bai1\Lab08_D_Bai1\menu.h(142,11): warning C4566: character represented by universal-character-name '\u01A1' cannot be represented in the current code page (1252)
-  Lab08_D_Bai1.vcxproj -> C:\c++\Cplus\2115207_LAB8_HD\Lab08_D_Bai1\x64\Debug\Lab08_D_Bai1.exe

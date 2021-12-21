@@ -67,7 +67,7 @@ void XuatKeNgangDoi()
 	cout << "\n";
 	cout << setiosflags(ios::left)
 		<< ':';
-	for (i = 1; i <= 74; i++)
+	for (i = 1; i <= 79; i++)
 		cout << '=';
 	cout << ':';
 }
@@ -77,26 +77,73 @@ void XuatKeNgangDon()
 	cout << "\n";
 	cout << setiosflags(ios::left)
 		<< ':';
-	for (i = 1; i <= 74; i++)
+	for (i = 1; i <= 79; i++)
 		cout << '-';
 	cout << ':';
 }
 void XuatTheoDinhDang() {
 	XuatKeNgangDoi();
 	cout << endl;
-	cout << left << setw(10) << "Ma SV" << setw(27) << "Ho va Ten"
-		<< setw(10) << "Nam sinh" << setw(10) << "lop"
-		<< setw(10) << "Diem TB" << setw(5) << "XLoai";
+	cout << setiosflags(ios::left)
+		<< ':'
+		<< setw(10)
+
+		<< "Ma SV"
+		<< ':'
+		<< setw(27)
+
+		<< "Ho va Ten"
+		<< ':'
+		<< setw(10)
+
+		<< "Nam sinh"
+		<< ':'
+		<< setw(10)
+
+		<< "lop"
+		<< ':'
+		<< setw(10)
+
+		<< "Diem TB"
+		<< ':'
+		<< setw(5)
+
+		<< "XLoai"
+		<< ':';
 	XuatKeNgangDoi();
 	cout << endl;
 }
 
 void Xem_Thong_Tin_1_SV(DanhSach sv) {
 	sv.xepLoai[0] = NULL;
-	cout << setiosflags(ios::left) << setw(10) << sv.maSinhVien << setw(27) << sv.hoTen
-		<< setw(10) << sv.namSinh << setw(10) << sv.lop
-		<< setw(10) << setiosflags(ios::fixed) << setprecision(1)
-		<< sv.diemTB<<setw(7)<<sv.xepLoai;
+	cout << setiosflags(ios::left)
+		<< ':'
+		<< setw(10)
+
+		<< sv.maSinhVien
+		<< ':'
+		<< setw(27)
+
+		<< sv.hoTen
+		<< ':'
+		<< setw(10)
+
+		<< sv.namSinh
+		<< ':'
+		<< setw(10)
+
+		<< sv.lop
+		<< ':'
+		<< setw(10)
+		<< setiosflags(ios::fixed)
+		<< setprecision(1)
+
+		<< sv.diemTB
+		<< ':'
+		<< setw(7)
+
+		<< sv.xepLoai
+		<< ':';
 }
 void Xem_Danh_Sach(DanhSach ds[MAX], int n) {
 	XuatTheoDinhDang();
@@ -115,14 +162,32 @@ void Xem_Danh_Sach(DanhSach ds[MAX], int n) {
 void Xuat_Bang_Diem_SV(DanhSach ds[MAX], int n) {
 	XuatKeNgangDoi();
 	cout << endl;
-	cout << setiosflags(ios::left) << setw(10) << "Ma SV" << setw(27) << "Ho va Ten"
-		<< setw(10) << "Diem TB";
+	cout << setiosflags(ios::left) 
+		
+		<< setw(10) 
+		
+		<< "Ma SV" 
+		<< setw(27) 
+		
+		<< "Ho va Ten"
+		<< setw(10) 
+		
+		<< "Diem TB";
 	XuatKeNgangDoi();
 	cout << endl;
 	cout << endl;
 	for (int i = 0; i < n; i++) {
-		cout << setiosflags(ios::left) << setw(10) << ds[i].maSinhVien << setw(27) << ds[i].hoTen
-			<< setw(10) << setiosflags(ios::fixed) << setprecision(1)
+		cout << setiosflags(ios::left) 
+			
+			<< setw(10) 
+			
+			<< ds[i].maSinhVien 
+			<< setw(27) 
+			
+			<< ds[i].hoTen
+			<< setw(10) 
+			<< setiosflags(ios::fixed) << setprecision(1)
+			
 			<< ds[i].diemTB;
 		cout << endl;
 		if ((i + 1) % 5 == 0) {

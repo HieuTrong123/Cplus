@@ -24,6 +24,7 @@ void XuatMenu()
 }
 int ChonMenu(int soMenu)
 {
+	
 	int stt;
 	for (;;)
 	{
@@ -43,6 +44,7 @@ void XuLyMenu(int menu, NhanVien a[MAX], int& n)
 	int kq;
 	unsigned int u, v;
 	double x;
+	
 	switch (menu)
 	{
 	case 0:

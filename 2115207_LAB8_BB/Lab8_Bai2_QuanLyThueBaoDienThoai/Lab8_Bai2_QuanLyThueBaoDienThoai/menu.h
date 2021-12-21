@@ -3,7 +3,7 @@
 void Menu(){
 	cout << "\n\n\t\t======MENU=======\n";
 	cout << "\n0.thoat khoi chuong trinh";
-	cout << "\n1.nhap danh sach thue bao";
+	cout << "\n1.tao danh sach thue bao";
 	cout << "\n2.xem danh sach thue bao";
 	cout << "\n3.Tim so dien thoai khi biet ten";
 	cout << "\n4.tim thong tin thoe bao khi biet so dien thoai";
@@ -15,7 +15,6 @@ void Xu_Ly_Menu(ThueBao ds[],int &n) {
 	int luaChon;
 	char hoTen[51];
 	char soDienThoai[15];
-	char diaChi[101];
 	while (true) {
 		system("cls");
 		Menu();
@@ -25,8 +24,9 @@ void Xu_Ly_Menu(ThueBao ds[],int &n) {
 			break;
 		}
 		else if (luaChon == 1) {
-			cout << "\n1.nhap danh sach thue bao";
-			NhapDanhSachThueBao(ds, n);
+			cout << "\n1.tao danh sach thue bao";
+			TaoDanhSachThueBao(ds, n);
+		
 			system("pause");
 		}
 		else if (luaChon == 2) {
@@ -52,10 +52,7 @@ void Xu_Ly_Menu(ThueBao ds[],int &n) {
 		}
 		else if (luaChon == 5) {
 			cout << "\n5.xuat cac thue bao co cung dia chi";
-			cout << "\nNhap dia chi co truoc : ";
-			cin.ignore();
-			cin.getline(diaChi, 101);
-			Thue_Bao_Cung_Dia_Chi(ds, n, diaChi);
+			Thue_Bao_Cung_Dia_Chi(ds, n);
 			system("pause");
 		}
 		else if (luaChon == 6) {

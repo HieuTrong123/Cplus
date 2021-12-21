@@ -23,10 +23,13 @@ double TinhDoDai(Vector a) {
 	return sqrt(pow(a.x, 2) + pow(a.y, 2) + pow(a.z, 2));
 }
 bool KiemTra2VectorBangNhau(Vector a,Vector b) {
-	if (TinhDoDai(a) == TinhDoDai(b)) {
+	double kq;
+		kq = (a.x * b.x + a.y * b.y + a.z * b.z) /
+		(sqrt(pow(a.x, 2) + pow(a.y, 2) + pow(a.z, 2)) * sqrt(pow(b.x, 2) + pow(b.y, 2) + pow(b.z, 2)));
+	if (TinhDoDai(a) == TinhDoDai(b) && kq == 1) {
 		return true;
 	}
-	return false;
+	else return false;
 }
 Vector TinhTong(Vector u,Vector v) {
 	Vector c;

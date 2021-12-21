@@ -5,11 +5,8 @@ using namespace std;
 #include"menu.h"
 
 int main() {
-	ChuoiDong a = NULL;
-	int n;
-	cout << "\nNhap so phan tu cua chuoi dong : ";
-	cin >> n;
-	a = new char[n];
+	ChuoiDong a;
+	a = new char;
 	XuLyMenu(a);
 	delete[] a;
 	_getch();

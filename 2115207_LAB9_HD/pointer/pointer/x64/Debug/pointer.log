@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\c++\Cplus\2115207_LAB9_HD\pointer\pointer\Source.cpp(5,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\c++\Cplus\2115207_LAB9_HD\pointer\pointer\Source.cpp(14,9): warning C4101: 'm': unreferenced local variable
+  pointer.vcxproj -> C:\c++\Cplus\2115207_LAB9_HD\pointer\x64\Debug\pointer.exe
