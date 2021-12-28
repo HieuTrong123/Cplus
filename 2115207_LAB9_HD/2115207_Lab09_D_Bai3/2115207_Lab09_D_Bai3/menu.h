@@ -26,6 +26,7 @@ void XuLyMenu(ChuoiDong a) {
 		}
 		else if (luaChon == 1) {
 			cout << "\n1.Nhap chuoi";
+			
 			Nhap_Chuoi(a);
 			system("pause");
 		}

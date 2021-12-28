@@ -7,8 +7,8 @@ using namespace std;
 #include"menu.h"
 int main() {
 	int* a = NULL;
-	int n = 0 ;
-	
+	int n = 0;
+
 	XuLyMenu(a, n);
 	delete[] a;
 	_getch();

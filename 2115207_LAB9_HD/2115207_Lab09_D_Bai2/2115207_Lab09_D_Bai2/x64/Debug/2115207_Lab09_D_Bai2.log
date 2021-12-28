@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\c++\Cplus\2115207_LAB9_HD\2115207_Lab09_D_Bai2\2115207_Lab09_D_Bai2\thuvien.h(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  2115207_Lab09_D_Bai2.vcxproj -> C:\c++\Cplus\2115207_LAB9_HD\2115207_Lab09_D_Bai2\x64\Debug\2115207_Lab09_D_Bai2.exe

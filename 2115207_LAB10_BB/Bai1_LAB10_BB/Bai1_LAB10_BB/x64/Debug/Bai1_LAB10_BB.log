@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\c++\Cplus\2115207_lab10_HD\Bai1_LAB10_BB\Bai1_LAB10_BB\thuvien.h(12,42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Bai1_LAB10_BB.vcxproj -> C:\c++\Cplus\2115207_lab10_HD\Bai1_LAB10_BB\x64\Debug\Bai1_LAB10_BB.exe

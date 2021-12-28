@@ -9,6 +9,7 @@ int XoaKT_VT(ChuoiDong a, int vt);
 void CatCuoiChenDau(ChuoiDong a);
 void Xoa_x(ChuoiDong a, char x);
 void Nhap_Chuoi(ChuoiDong a) {
+
 	cin.ignore();
 	cout << "\nNhap chuoi a : ";
 	cin.getline(a, MAX);

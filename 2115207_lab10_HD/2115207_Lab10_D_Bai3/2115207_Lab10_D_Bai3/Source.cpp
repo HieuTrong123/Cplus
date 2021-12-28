@@ -3,12 +3,9 @@
 using namespace std;
 #include"thuvien.h"
 #include"menu.h"
-
 int main() {
-	ChuoiDong a=NULL;
-	a = new char[MAX];
-	XuLyMenu(a);
-	delete[] a;
+	
+	XuLyMenu();
 	_getch();
-	return 1;
+	return 0;
 }

@@ -4,9 +4,9 @@ int Tim_Max(int* a, int n);
 int Tinh_Tong(int* a, int n);
 int Dem_X(int* a, int n, int x);
 int Dem_SO_Duong(int* a, int n);
-void Nhap_Tu_Dong(int *a ,int n) {
+void Nhap_Tu_Dong(int* a, int n) {
 	srand(time(NULL));
-	for (int i = 0; i < n;i++) {
+	for (int i = 0; i < n; i++) {
 		*(a + i) = rand() % (10 - (-10) + 1) + (-10);
 	}
 }
@@ -16,37 +16,50 @@ void Xem_Mang(int* a, int n) {
 	}
 }
 int Tim_Max(int* a, int n) {
-	int max = *a;
-	for (int i = 1; i < n; i++) {
-		if (*(a + i) > max) {
-			max = *(a + i);
+	if (n == 1) {
+		return *a;
+	}
+	else {
+		if (Tim_Max(a, n - 1) < a[n - 1]) {
 
+			return a[n - 1];
 		}
 	}
-	return max;
 }
 int Tinh_Tong(int* a, int n) {
-	int sum = 0;
-	for (int i = 0; i < n; i++) {
-		sum += *(a + i);
+	if (n == 0) {
+		return 0;
 	}
-	return sum;
+	else {
+		return a[n - 1] + Tinh_Tong(a, n - 1);
+	}
 }
-int Dem_SO_Duong(int *a,int n) {
-	int dem = 0;
-	for (int i = 0; i < n; i++) {
-		if (*(a + i) > 0) {
-			dem++;
+int Dem_SO_Duong(int* a, int n) {
+	if (n == 0) {
+		return 0;
+	}
+	else {
+		if (a[n - 1] > 0) {
+			return Dem_SO_Duong(a, n - 1) + 1;
+
+		}
+		else {
+			Dem_SO_Duong(a, n - 1);
 		}
 	}
-	return dem;
+
 }
-int Dem_X(int *a,int n,int x) {
-	int dem = 0;
-	for (int i = 0; i < n;i++) {
-		if (*(a + i) == x) {
-			dem++;
+int Dem_X(int* a, int n, int x) {
+	if (n == 0) {
+		return 0;
+	}
+	else {
+		if (a[n - 1] == x ) {
+			return Dem_X(a, n - 1, x) + 1;
+
+		}
+		else {
+			Dem_X(a, n - 1, x);
 		}
 	}
-	return dem;
 }

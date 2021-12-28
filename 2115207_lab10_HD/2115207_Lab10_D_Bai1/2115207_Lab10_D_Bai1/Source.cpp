@@ -5,10 +5,9 @@ using namespace std;
 #include"menu.h"
 
 int main() {
-	ChuoiDong a=NULL;
-	a = new char[MAX];
-	XuLyMenu(a);
-	delete[] a;
+	DayDong a=NULL;
+	int n = 0;
+	XuLyMenu(a, n);
 	_getch();
-	return 1;
+	return 0;
 }
