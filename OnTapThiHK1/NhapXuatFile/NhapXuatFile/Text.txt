@@ -1,0 +1,9 @@
+Phu_Kien_Thoi_Trang	50000	20	Hop	25	Gel_Vuot_Toc
+Do_Choi_Tre_Em	25000	30	Hop	360	Sung_Bi
+Hoa_Tuoi_Online	10000	15	Goi	1	Hoa_Hong
+Luong_Thuc_Online	50000	50	Kg	40	Gao_Thom_Lai
+Luong_Thuc_Online	10000	30	Kg	3	Bia_Bug
+Luong_Thuc_Online	15000	50	Thung	360	Gao_Thom_Lai
+Sach_Online		30000	20	Quyen	720	Tieu_Thuyet
+Sach_Online		50000	10	Quyen	720	Truyen_Ma
+Sach_Online		20000	200	Quyen	720	Tieu_Thuyet

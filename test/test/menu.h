@@ -2,7 +2,7 @@ void Menu() {
 	cout << "\n\n\t\t=========MENU=========\n";
 	cout << "\n0.ket thuc chuong trinh";
 	cout << "\n1.nhap du lieu thong tin sinh vien tu file";
-	cout << "\n2.xem du lieu thong tin tu file trong file khac";
+	cout << "\n2.xem du lieu thong tin tu file";
 	cout << "\n3.xep loai sinh vien";
 	cout << "\n4.them mot sinh vien duoc nhap tu ban phim vao vi tri cho truoc";
 	cout << "\n5.xoa mot sinh vien tai vi tri cho truoc";
@@ -126,10 +126,11 @@ void XuLyMenu(SinhVien ds[],int& n) {
 			cout << "\n8.sua thong tin sinh vien theo ho ten cho truoc";
 			out.open("Text1.txt");
 			if (out) {
-				cout << "\nNhap ho ten sinh vien can chinh sua: ";
+				/*cout << "\nNhap ho ten sinh vien can chinh sua: ";
 				cin.ignore();
 				cin.getline(hoTen, 40);
-				ChinhSuaSV(ds, n, hoTen);
+				ChinhSuaSV(ds, n, hoTen);*/
+				TestSapXep(ds, n);
 				cout << "\nTHAO TAC THANH CONG! ";
 			}
 			else {

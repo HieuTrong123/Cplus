@@ -12,7 +12,7 @@ struct SinhVien
 };
 
 
-int Nhap_Thong_tin_SV(SinhVien* ds ,int& n) {
+int Nhap_Thong_tin_SV(SinhVien* ds, int& n) {
 	in.open("Text.txt");
 	char x;
 	if (!in)
@@ -97,7 +97,7 @@ void Xuat_1_Sinh_Vien(SinhVien sv) {
 		<< sv.xepLoai
 		<< ':';
 }
-void Xem_Thing_Tin_SV(SinhVien* ds,int n) {
+void Xem_Thing_Tin_SV(SinhVien* ds, int n) {
 	XuatTieuDe();
 	for (int i = 0; i < n; i++) {
 		Xuat_1_Sinh_Vien(ds[i]);
@@ -108,21 +108,21 @@ void Xem_Thing_Tin_SV(SinhVien* ds,int n) {
 	}
 	XuatKeDoi();
 }
-void XepLoaiSinhVien(SinhVien* ds,int n) {
+void XepLoaiSinhVien(SinhVien* ds, int n) {
 	for (int i = 0; i < n; i++) {
 		if (ds[i].diem > 9) {
 			strcpy_s(ds[i].xepLoai, 10, "Xuat sac");
 		}
-		else if (ds[i].diem <= 9 && ds[i].diem>=8.5) {
+		else if (ds[i].diem <= 9 && ds[i].diem >= 8.5) {
 			strcpy_s(ds[i].xepLoai, 10, "gioi");
 		}
-		else if (ds[i].diem <= 8 && ds[i].diem>=6.5) {
+		else if (ds[i].diem <= 8 && ds[i].diem >= 6.5) {
 			strcpy_s(ds[i].xepLoai, 10, "kha");
 		}
-		else if (ds[i].diem <= 6 && ds[i].diem>=5) {
+		else if (ds[i].diem <= 6 && ds[i].diem >= 5) {
 			strcpy_s(ds[i].xepLoai, 10, "T.Binh");
 		}
-		else if (ds[i].diem <= 5 && ds[i].diem>=3.5) {
+		else if (ds[i].diem <= 5 && ds[i].diem >= 3.5) {
 			strcpy_s(ds[i].xepLoai, 10, "yeu");
 		}
 		else {
@@ -132,7 +132,7 @@ void XepLoaiSinhVien(SinhVien* ds,int n) {
 	out << "\n\n\t\t======DANH SACh Sinh VIEN SAU KHI XEP LOAI LA======\n";
 	Xem_Thing_Tin_SV(ds, n);
 }
-void Nhap_1_SV_Tu_Ban_Phim(SinhVien &sv) {
+void Nhap_1_SV_Tu_Ban_Phim(SinhVien& sv) {
 	cout << "\nNhap ma so SV: ";
 	cin.getline(sv.maSV, 8);
 	cout << "\nNhap ho ten sinh vien: ";
@@ -163,7 +163,7 @@ void Nhap_1_SV_Tu_Ban_Phim(SinhVien &sv) {
 		strcpy_s(sv.xepLoai, 10, "kem");
 	}
 }
-void ThemSinhVien(SinhVien ds[], int& n,int vt) {
+void ThemSinhVien(SinhVien ds[], int& n, int vt) {
 	SinhVien sv;
 	Nhap_1_SV_Tu_Ban_Phim(sv);
 	for (int i = n - 1; i >= vt; i--) {
@@ -174,7 +174,7 @@ void ThemSinhVien(SinhVien ds[], int& n,int vt) {
 	out << "\nDANH SACH SINH VIEN SAU KHI THEM SINH VIEN TAI VI TRI " << vt << " LA: ";
 	Xem_Thing_Tin_SV(ds, n);
 }
-void Xoa_Sinh_Vien(SinhVien* ds, int& n,int vt) {
+void Xoa_Sinh_Vien(SinhVien* ds, int& n, int vt) {
 	for (int i = vt + 1; i < n; i++) {
 		ds[i - 1] = ds[i];
 	}
@@ -182,7 +182,7 @@ void Xoa_Sinh_Vien(SinhVien* ds, int& n,int vt) {
 	out << "\nDANH SACH SINH VIEN SAU KHI XOA SINH VIEN TAI VI TRI " << vt << " LA: ";
 	Xem_Thing_Tin_SV(ds, n);
 }
-void TimSV(SinhVien *ds,int n) {
+void TimSV(SinhVien* ds, int n) {
 	out << "\nSinh vien co diem trung binh cao nhat la : ";
 	XuatTieuDe();
 	double max = ds[0].diem;
@@ -203,16 +203,16 @@ void Hoan_Vi(SinhVien& a, SinhVien& b) {
 	a = b;
 	b = temp;
 }
-void SinhVienLop(SinhVien *ds,int n,const char* lop) {
+void SinhVienLop(SinhVien* ds, int n, const char* lop) {
 	for (int i = 0; i < n; i++) {
 		for (int j = i + 1; j < n; j++) {
-			if (_strcmpi(ds[i].lop, lop) == 0&& _strcmpi(ds[j].lop, lop) == 0) {
+			if (_strcmpi(ds[i].lop, lop) == 0 && _strcmpi(ds[j].lop, lop) == 0) {
 				if (_strcmpi(ds[i].xepLoai, ds[j].xepLoai) > 0) {
 					Hoan_Vi(ds[i], ds[j]);
 				}
 			}
 		}
-		
+
 	}
 	XuatTieuDe();
 	for (int i = 0; i < n; i++) {
@@ -223,12 +223,25 @@ void SinhVienLop(SinhVien *ds,int n,const char* lop) {
 	}
 	XuatKeDoi();
 }
-void ChinhSuaSV(SinhVien* ds, int n,char *hoTen) {
+void ChinhSuaSV(SinhVien* ds, int n, char* hoTen) {
 	for (int i = 0; i < n; i++) {
 		if (_strcmpi(ds[i].hoTen, hoTen) == 0) {
 			Nhap_1_SV_Tu_Ban_Phim(ds[i]);
 		}
 	}
 	out << "\n\n\t\tdanh sach sinh vien sau khi sua la: \n";
+	Xem_Thing_Tin_SV(ds, n);
+}
+void TestSapXep(SinhVien* ds, int n) {
+	for (int i = 0; i < n; i++) {
+		for (int j = i + 1; j < n; j++) {
+
+			if (_strcmpi(ds[i].xepLoai, ds[j].xepLoai) > 0) {
+				Hoan_Vi(ds[i], ds[j]);
+			}
+
+		}
+
+	}
 	Xem_Thing_Tin_SV(ds, n);
 }
