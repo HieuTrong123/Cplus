@@ -1,4 +1,2 @@
 ﻿  Source.cpp
-C:\c++\Cplus\2115207_DInhTrongHieu\2115207_DInhTrongHieu\thuvien.h(42): warning C4715: 'Doc_Thong_Tin': not all control paths return a value
-  LINK : C:\c++\Cplus\2115207_DInhTrongHieu\x64\Debug\2115207_DInhTrongHieu.exe not found or not built by the last incremental link; performing full link
-  2115207_DInhTrongHieu.vcxproj -> C:\c++\Cplus\2115207_DInhTrongHieu\x64\Debug\2115207_DInhTrongHieu.exe
+  2115207_DinhTrongHieu.vcxproj -> C:\c++\Cplus\2115207_DinhTrongHieu\x64\Debug\2115207_DinhTrongHieu.exe

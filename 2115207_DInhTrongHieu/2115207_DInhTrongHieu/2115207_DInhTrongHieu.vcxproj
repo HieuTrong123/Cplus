@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d06a00d4-aeba-4184-8786-df507660036e}</ProjectGuid>
-    <RootNamespace>My2115207DInhTrongHieu</RootNamespace>
+    <ProjectGuid>{088d5217-ff4f-4765-9bf0-a718bc62d0a4}</ProjectGuid>
+    <RootNamespace>My2115207DinhTrongHieu</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="Text.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="menu.h" />
-    <ClInclude Include="thuvien.h" />
+    <ClInclude Include="2115207_menu.h" />
+    <ClInclude Include="2115207_thuvien.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bangdiem.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
