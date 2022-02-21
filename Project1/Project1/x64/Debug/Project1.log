@@ -1,4 +1,0 @@
-﻿  Source.cpp
-C:\c++\Cplus\Project1\Project1\thuvien.h(121,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\c++\Cplus\Project1\Project1\thuvien.h(124,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Project1.vcxproj -> C:\c++\Cplus\Project1\x64\Debug\Project1.exe
