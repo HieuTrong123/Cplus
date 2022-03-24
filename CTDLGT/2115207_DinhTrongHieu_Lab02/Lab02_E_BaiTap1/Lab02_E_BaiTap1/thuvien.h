@@ -27,8 +27,8 @@ int Tao_DSNV(char filename[], NhanVien ds[], int& n) {
 		in >> ds[n].ten;
 		
 		
-		getline(in,ds[n].ngaySinh,',');
 		
+		in >> ds[n].ngaySinh;
 		in >> ds[n].diaChi;
 		
 		in >> ds[n].luong;
