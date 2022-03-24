@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab02\Lab02_E_BaiTap1\Lab02_E_BaiTap1\thuvien.h(147,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab02\Lab02_E_BaiTap1\Lab02_E_BaiTap1\thuvien.h(184,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab02\Lab02_E_BaiTap1\Lab02_E_BaiTap1\thuvien.h(223,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab02\Lab02_E_BaiTap1\Lab02_E_BaiTap1\thuvien.h(260,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab02\Lab02_E_BaiTap1\Lab02_E_BaiTap1\thuvien.h(300,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Lab02_E_BaiTap1.vcxproj -> C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab02\Lab02_E_BaiTap1\x64\Debug\Lab02_E_BaiTap1.exe
