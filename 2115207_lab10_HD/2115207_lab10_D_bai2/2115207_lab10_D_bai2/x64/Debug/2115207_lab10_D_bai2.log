@@ -1,6 +1,0 @@
-﻿  Source.cpp
-C:\c++\Cplus\2115207_lab10_HD\2115207_lab10_D_bai2\2115207_lab10_D_bai2\menu.h(22,12): warning C4129: 'm': unrecognized character escape sequence
-C:\c++\Cplus\2115207_lab10_HD\2115207_lab10_D_bai2\2115207_lab10_D_bai2\menu.h(29,12): warning C4129: 'm': unrecognized character escape sequence
-C:\c++\Cplus\2115207_lab10_HD\2115207_lab10_D_bai2\2115207_lab10_D_bai2\menu.h(38,12): warning C4129: 'm': unrecognized character escape sequence
-C:\c++\Cplus\2115207_lab10_HD\2115207_lab10_D_bai2\2115207_lab10_D_bai2\menu.h(41,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  2115207_lab10_D_bai2.vcxproj -> C:\c++\Cplus\2115207_lab10_HD\2115207_lab10_D_bai2\x64\Debug\2115207_lab10_D_bai2.exe

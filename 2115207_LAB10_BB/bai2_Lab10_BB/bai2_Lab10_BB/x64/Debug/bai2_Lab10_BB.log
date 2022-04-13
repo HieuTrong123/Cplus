@@ -1,4 +1,0 @@
-﻿  Source.cpp
-C:\c++\Cplus\2115207_LAB10_BB\bai2_Lab10_BB\bai2_Lab10_BB\thuvien.h(18): warning C4715: 'TinhTongSoLe': not all control paths return a value
-C:\c++\Cplus\2115207_LAB10_BB\bai2_Lab10_BB\bai2_Lab10_BB\thuvien.h(31): warning C4715: 'TinhTichSoLe': not all control paths return a value
-  bai2_Lab10_BB.vcxproj -> C:\c++\Cplus\2115207_LAB10_BB\bai2_Lab10_BB\x64\Debug\bai2_Lab10_BB.exe
