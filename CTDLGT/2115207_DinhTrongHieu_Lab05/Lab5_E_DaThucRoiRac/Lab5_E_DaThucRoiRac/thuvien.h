@@ -27,7 +27,7 @@ Node* KhoiTaoNode(Data x) {
 	return newNode;
 }
 void ChenCuoi(LIST& l, Data x) {
-	
+
 	Node* newNode = KhoiTaoNode(x);
 	if (l.pHead == NULL) {
 		l.pHead = newNode;
@@ -133,23 +133,174 @@ void Output_Poly(LIST A)
 		p = p->pNext;
 	}
 }
-//void HoanVi(Data& a, Data& b) {
-//	Data temp;
-//	temp = a;
-//	a = b;
-//	b = temp;
-//}
-//void Sort_Expo(LIST& A) {
-//	for (Node* k = A.pHead; k != NULL; k = k->pNext) {
-//		for (Node* h = k->pNext; h != NULL; h = h->pNext) {
-//			if (k->data.expo > h->data.expo) {
-//				HoanVi(k->data, h->data);
-//			}
-//		}
-//	}
-//}
+void HoanVi(Data& a, Data& b) {
+	Data temp;
+	temp = a;
+	a = b;
+	b = temp;
+}
+void Sort_Expo(LIST& A) {
+	for (Node* k = A.pHead; k != NULL; k = k->pNext) {
+		for (Node* h = k->pNext; h != NULL; h = h->pNext) {
+			if (k->data.expo > h->data.expo) {
+				HoanVi(k->data, h->data);
+			}
+		}
+	}
+}
 LIST Add(LIST A, LIST B) {
+	Sort_Expo(A);
+	Sort_Expo(B);
 	LIST C;
 	KhoiTaoList(C);
 	Data x;
+	Node* pA, * pB;
+	pA = A.pHead;
+	pB = B.pHead;
+	while (pA != NULL && pB != NULL) {
+		if (pA->data.expo < pB->data.expo) {
+
+			ChenCuoi(C, pA->data);
+			pA = pA->pNext;
+		}
+		else if (pA->data.expo > pB->data.expo) {
+			ChenCuoi(C, pB->data);
+			pB = pB->pNext;
+		}
+		else {
+			x.coef = pA->data.coef + pB->data.coef;
+			x.expo = pA->data.expo;
+			if (x.coef != 0) {
+				ChenCuoi(C, x);
+			}
+			pA = pA->pNext;
+			pB = pB->pNext;
+		}
+	}
+	while (pA != NULL) {
+		ChenCuoi(C, pA->data);
+		pA = pA->pNext;
+	}
+	while (pB != NULL) {
+		ChenCuoi(C, pB->data);
+		pB = pB->pNext;
+	}
+	return C;
+}
+LIST Hieu(LIST A, LIST B) {
+	Sort_Expo(A);
+	Sort_Expo(B);
+	LIST C;
+	KhoiTaoList(C);
+	Data x;
+	Node* pA, * pB;
+	pA = A.pHead;
+	pB = B.pHead;
+	while (pA != NULL && pB != NULL) {
+		if (pA->data.expo < pB->data.expo) {
+
+			ChenCuoi(C, pA->data);
+			pA = pA->pNext;
+		}
+		else if (pA->data.expo > pB->data.expo) {
+			ChenCuoi(C, pB->data);
+			pB = pB->pNext;
+		}
+		else {
+			x.coef = pA->data.coef - pB->data.coef;
+			x.expo = pA->data.expo;
+			if (x.coef != 0) {
+				ChenCuoi(C, x);
+			}
+			pA = pA->pNext;
+			pB = pB->pNext;
+		}
+	}
+	while (pA != NULL) {
+		ChenCuoi(C, pA->data);
+		pA = pA->pNext;
+	}
+	while (pB != NULL) {
+		ChenCuoi(C, pB->data);
+		pB = pB->pNext;
+	}
+	return C;
+}
+LIST NhanDonThucVaDaThuc(LIST A, Node* p) {
+	LIST B;
+	Data x;
+	KhoiTaoList(B);
+	Node* pA = A.pHead;
+	while (pA != NULL) {
+		x.coef = p->data.coef * pA->data.coef;
+		x.expo = p->data.expo + pA->data.expo;
+		ChenCuoi(B, x);
+		pA = pA->pNext;
+	}
+	return B;
+}
+LIST NhanHaiDaThuc(LIST A, LIST B) {
+	LIST c, t1, t2;
+	KhoiTaoList(c);
+	KhoiTaoList(t1);
+	KhoiTaoList(t2);
+	Node* pA;
+	pA = A.pHead;
+	while (pA != NULL) {
+		t1 = NhanDonThucVaDaThuc(B, pA);
+		t2 = Add(c, t1);
+		c = t2;
+		pA = pA->pNext;
+	}
+	return c;
+}
+LIST DaoHam(LIST A) {
+	LIST kq;
+	KhoiTaoList(kq);
+	Node* pA = A.pHead;
+	Data x;
+	while (pA != NULL) {
+		if (pA->data.expo == 0) {
+			x.coef = 0;
+			x.expo = 0;
+		}
+		else {
+			x.coef = pA->data.coef * pA->data.expo;
+			x.expo = pA->data.expo - 1;
+		}
+		if (x.coef != 0) {
+			ChenCuoi(kq, x);
+		}
+		pA = pA->pNext;
+	}
+	return kq;
+}
+LIST TichPhan(LIST A) {
+	LIST kq;
+	KhoiTaoList(kq);
+	Node* pA = A.pHead;
+	Data x;
+	while (pA != NULL) {
+		if (pA->data.expo == 0) {
+			x.coef = pA->data.coef;
+			x.expo = 1;
+		}
+		else {
+			x.coef = pA->data.coef / (pA->data.expo + 1);
+			x.expo = pA->data.expo + 1;
+		}
+		if (x.coef != 0) {
+			ChenCuoi(kq, x);
+		}
+		pA = pA->pNext;
+	}
+	return kq;
+}
+double GiaTriTaiX(LIST A,double x) {
+	double kq=0;
+	for (Node* k = A.pHead; k != NULL; k = k->pNext) {
+		
+		kq += k->data.coef * pow(x, k->data.expo);
+	}
+	return kq;
 }
