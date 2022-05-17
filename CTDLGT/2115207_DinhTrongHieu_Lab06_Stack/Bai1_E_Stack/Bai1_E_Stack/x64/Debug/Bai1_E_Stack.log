@@ -1,0 +1,11 @@
+﻿  Source.cpp
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\thuvien.h(108,15): warning C4101: 'y': unreferenced local variable
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\thuvien.h(108,7): warning C4101: 'x': unreferenced local variable
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\thuvien.h(166,15): warning C4101: 'y': unreferenced local variable
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\thuvien.h(166,7): warning C4101: 'x': unreferenced local variable
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\menu.h(48,24): error C2664: 'void Xem_So(Stack &)': cannot convert argument 1 from 'Stack' to 'Stack &'
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\menu.h(48,18): message : A non-const reference may only be bound to an lvalue
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\thuvien.h(90,6): message : see declaration of 'Xem_So'
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\menu.h(68,24): error C2664: 'void Xem_So(Stack &)': cannot convert argument 1 from 'Stack' to 'Stack &'
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\menu.h(68,18): message : A non-const reference may only be bound to an lvalue
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab06\Bai1_E_Stack\Bai1_E_Stack\thuvien.h(90,6): message : see declaration of 'Xem_So'
