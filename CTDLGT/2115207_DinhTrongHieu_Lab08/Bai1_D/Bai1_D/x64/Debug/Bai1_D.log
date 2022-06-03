@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab08\Bai1_D\Bai1_D\menu.h(30,11): warning C4101: 'y': unreferenced local variable
+C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab08\Bai1_D\Bai1_D\menu.h(30,8): warning C4101: 'x': unreferenced local variable
+  Bai1_D.vcxproj -> C:\c++\Cplus\CTDLGT\2115207_DinhTrongHieu_Lab08\Bai1_D\x64\Debug\Bai1_D.exe

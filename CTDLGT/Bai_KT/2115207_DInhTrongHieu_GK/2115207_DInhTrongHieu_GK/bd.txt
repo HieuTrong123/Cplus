@@ -1,0 +1,12 @@
+DL12045 Nguyen Tuan Vo 1990 Lam_Dong 6.5
+DL43210 Truong Thi Hoa 1991 Binh_Thuan 5
+DL11040 Nguyen Thi Lieu 1991 Binh_Dinh 8
+DL23452 Tran Ngoc Ninh 1992 Binh_Thuan 7
+DL34432 Hoang _ Hoa 1990 Lam_Dong 3.5
+DL42332 Le Thi Lieu 1991 Lam_Dong 8
+DL42032 Van Thi Hoa 1992 Binh_Dinh 9.5
+DL12040 Nguyen Van Vu 1992 Khanh_Hoa 6
+DL13045 Tran Trong Hieu 1990 Lam_Dong 4
+DL12062 Ly Van Hoa 1991 Binh_Dinh 9
+DL23052 Vo Ngoc Hoa 1990 Binh_Thuan 6
+DL10045 Tran Thi Hieu 1990 Khanh_Hoa 10

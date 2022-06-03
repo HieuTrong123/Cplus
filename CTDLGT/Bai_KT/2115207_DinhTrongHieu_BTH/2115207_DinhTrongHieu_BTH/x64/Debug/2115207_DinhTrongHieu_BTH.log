@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\c++\Cplus\CTDLGT\Bai_KT\2115207_DinhTrongHieu_BTH\2115207_DinhTrongHieu_BTH\menu.h(45,12): warning C4129: 'm': unrecognized character escape sequence
+C:\c++\Cplus\CTDLGT\Bai_KT\2115207_DinhTrongHieu_BTH\2115207_DinhTrongHieu_BTH\Header.h(55): warning C4715: 'NhapTuFile': not all control paths return a value
+  2115207_DinhTrongHieu_BTH.vcxproj -> C:\c++\Cplus\CTDLGT\Bai_KT\2115207_DinhTrongHieu_BTH\x64\Debug\2115207_DinhTrongHieu_BTH.exe
