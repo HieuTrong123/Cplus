@@ -1,0 +1,13 @@
+CT15332 Van_Thi_Hoa 12 6 1974 Lam_Dong 5.6
+CT23045 Vo_Thi_Thuong 3 7 1991 Khanh_Hoa 4.5
+CT13210 Ly_Van_Hoa 2 11 1985 Phu_Yen 5
+CT24042 Vo_Ngoc_Hoa 1 5 1983 Lam_Dong 5
+CT14432 Nguyen_Vo 6 3 1985 Khanh_Hoa 5
+CT22145 Truong_Minh 1 1 1986 Da_Nang 5
+CT22045 Vo_Tuan_Vo 10 5 1980 Phu_Yen 5
+CT26032 Hoang_Thi_Hanh 10 1 1984 Lam_Dong 4.5
+CT13452 Tran_Thi_Nga 8 4 1974 Lam_Dong 5.6
+CT20140 Le_Minh_Vu 9 6 1990 Da_Nang 4.5
+CT30432 Nguyen_Vinh 5 3 1975 Phu_Yen 5.6
+CT25052 Le_Ngoc_Thanh 10 8 1985 Lam_Dong 5
+CT12040 Nguyen_Van_Thu 5 9 1990 Khanh_Hoa 4.5
