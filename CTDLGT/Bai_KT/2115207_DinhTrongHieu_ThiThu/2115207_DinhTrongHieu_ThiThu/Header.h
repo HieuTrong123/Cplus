@@ -2,12 +2,11 @@
 struct NhanVien
 {
 	char maNV[10];
-	char hoTen[30];
-	int ngay;
-	int thang;
+	char ho[15];
+	char tlot[15];
+	char ten[15];
 	int nam;
 	char diaChi[20];
-	double bacLuong;
 };
 struct BSTree
 {
@@ -46,12 +45,11 @@ int NhapTuFile(BSTree*& root){
 	while (!in.eof()) {
 		NhanVien x;
 		in >> x.maNV;
-		in >> x.hoTen;
-		in >> x.ngay;
-		in >> x.thang;
+		in >> x.ho;
+		in >> x.tlot;
+		in >> x.ten;
 		in >> x.nam;
 		in >> x.diaChi;
-		in >> x.bacLuong;
 		Add(root, x);
 	}
 	in.close();
@@ -68,44 +66,16 @@ void XuatDongKe(char x) {
 void XuatTieuDe() {
 	XuatDongKe('=');
 	cout << setiosflags(ios::left) << ':' << setw(10)
-		<< "ma NV" << ':' << setw(30) << "ho ten" << ':' << setw(5) << "ngay"
-		<< ':' << setw(5) << "thang" << ':' << setw(5)
-		<< "nam" << ':' << setw(20) << "dia chi" << ':' << setw(10) << "bac luong"<<':';
+		<< "ma NV" << ':' << setw(10) << "ho" << ':' << setw(10) << "tlot"
+		<< ':' << setw(10) << "ten" << ':' << setw(10)
+		<< "nam" << ':' << setw(20) << "dia chi" << ':';
 	XuatDongKe('=');
 }
 void Xuat1NV(NhanVien x) {
 	cout << setiosflags(ios::left) << ':' << setw(10)
-		<< x.maNV << ':' << setw(30) << x.hoTen << ':' << setw(5) << x.ngay
-		<< ':' << setw(5) << x.thang << ':' << setw(5)
-		<< x.nam << ':' << setw(20) << x.diaChi << ':' << setw(10) << x.bacLuong<<':';
-}
-//NLR
-void DS_NLR(BSTree* root) {
-	if (root != NULL) {
-		Xuat1NV(root->data);
-		cout << endl;
-		DS_NLR(root->left);
-		DS_NLR(root->right);
-	}
-}
-void XuatDS_NLR(BSTree* root) {
-	XuatTieuDe();
-	DS_NLR(root);
-	XuatDongKe('=');
-}//LNR
-void DS_LNR(BSTree* root) {
-	if (root != NULL) {
-		
-		DS_LNR(root->left);
-		Xuat1NV(root->data);
-		cout << endl;
-		DS_LNR(root->right);
-	}
-}
-void XuatDS_LNR(BSTree* root) {
-	XuatTieuDe();
-	DS_LNR(root);
-	XuatDongKe('=');
+		<< x.maNV << ':' << setw(10) << x.ho << ':' << setw(10) << x.tlot
+		<< ':' << setw(10) << x.ten << ':' << setw(5)
+		<< x.nam << ':' << setw(20) << x.diaChi << ':';
 }
 void DS_LRN(BSTree* root) {
 	if (root != NULL) {
@@ -118,6 +88,6 @@ void DS_LRN(BSTree* root) {
 }
 void XuatDS_LRN(BSTree* root) {
 	XuatTieuDe();
-	DS_LNR(root);
+	DS_LRN(root);
 	XuatDongKe('=');
 }
